@@ -1,0 +1,36 @@
+{
+  "name": "helpdeskbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "nodemonConfig": {
+    "delay": 1000
+  },
+  "scripts": {
+    "test": "no",
+    "start": "nodemon ./server.js localhost 7070"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ZoomZoom2/Ahj-HelpDesk-Backend.git"
+  },
+  "author": "ZoomZoom2",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/cors": "^5.0.0",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.4.1",
+    "koa-router": "^12.0.1",
+    "koa-static": "^5.0.0",
+    "uuid": "^8.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/ZoomZoom2/Ahj-HelpDesk-Backend/issues"
+  },
+  "homepage": "https://github.com/ZoomZoom2/Ahj-HelpDesk-Backend#readme",
+  "devDependencies": {
+    "html-webpack-plugin": "^5.6.0",
+    "nodemon": "^3.1.0"
+  }
+}
